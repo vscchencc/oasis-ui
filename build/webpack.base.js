@@ -3,7 +3,7 @@
  * @Author: chencc
  * @Date: 2022-06-29 17:12:59
  * @LastEditors: chencc
- * @LastEditTime: 2022-07-06 16:36:28
+ * @LastEditTime: 2022-07-07 15:22:24
  */
 const path = require("path");
 const webpack = require("webpack");
@@ -53,6 +53,7 @@ module.exports = {
       "@components": resolve("src/components"),
       "@assets": resolve("src/assets"),
       "@img": resolve("src/assets/img"),
+      "@tigaUI": resolve("packages"),
     }
   },
   module: {

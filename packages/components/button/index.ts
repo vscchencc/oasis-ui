@@ -3,13 +3,12 @@
  * @Author: chencc
  * @Date: 2022-07-07 09:25:36
  * @LastEditors: chencc
- * @LastEditTime: 2022-07-07 09:53:14
+ * @LastEditTime: 2022-07-07 15:27:22
  */
-
+import { withInstall } from "../../utils/index"
 import Button from "./index.vue"
 
-Button.install = (Vue: any) => {
-  Vue.component(Button.name, Button);
-};
 
-export default Button;
+export const TigaButton = withInstall(Button)
+
+export default TigaButton;

@@ -3,7 +3,7 @@
  * @Author: chencc
  * @Date: 2022-07-07 09:33:14
  * @LastEditors: chencc
- * @LastEditTime: 2022-07-07 10:22:11
+ * @LastEditTime: 2022-07-07 15:18:13
  */
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
@@ -34,7 +34,7 @@ module.exports = {
     extensions: ['*', '.tsx', '.ts', '.js'],
     alias: {
       '@': path.resolve(__dirname, '../examples'),
-      UI: path.resolve(__dirname, '../packages/components')
+      "@tiga-ui": path.resolve(__dirname, '../packages')
     }
   },
   module: {
